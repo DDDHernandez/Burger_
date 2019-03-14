@@ -1,29 +1,27 @@
 {
-  "name": "burger_",
+  "name": "burger_app",
   "version": "1.0.0",
-  "description": "Six Guys Burgers is a restuarant based app where customers can order burger and devour it.",
+  "description": "Six Guys Burgers is a restaurant like app that allows user to order their burger.",
   "main": "server.js",
   "scripts": {
-    "test": "echo\\Error: no test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DDDHernandez/burger_.git"
+    "url": "git+https://github.com/DDDHernandez/burger_app.git"
   },
-  "author": "DylanH",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DDDHernandez/burger_/issues"
+    "url": "https://github.com/DDDHernandez/burger_app/issues"
   },
-  "homepage": "https://github.com/DDDHernandez/burger_#readme",
+  "homepage": "https://github.com/DDDHernandez/burger_app#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^7.0.0",
-    "exphbs": "^1.2.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
-    "mysql": "^2.16.0",
-    "node": "^11.11.0"
+    "mysql": "^2.16.0"
   }
 }
